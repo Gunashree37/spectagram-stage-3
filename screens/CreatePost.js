@@ -99,12 +99,15 @@ export default class CreatePost extends Component {
                             />
                         </View>
 
-                        <TextInput
-                            style={styles.inputFont}
-                            onChangeText={caption => this.setState({ caption })}
-                            placeholder={"Caption"}
-                            placeholderTextColor="white"
-                        />
+                        
+
+
+
+
+
+
+
+
                     </ScrollView>
                 </View>
                 <View style={{ flex: 0.08 }} />
